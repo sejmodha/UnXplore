@@ -1,0 +1,13 @@
+{
+    "data": "/path/to/samples_files_folder",
+    "genome": "/path/to/bwa_formatted_human_genome_index_with_prefix",
+    "adaptors": "/path/to/miniconda/envs/phase1/opt/bbmap-38.79-0/resources/adapters.fa",
+    "phix_adapt": "/path/to/miniconda/envs/phase1/opt/bbmap-38.79-0/resources/phix_adapters.fa.gz",
+    "phix_ill": "/path/to/miniconda/envs/phase1/opt/bbmap-38.79-0/resources/phix174_ill.ref.fa.gz",
+    "lambda": "/path/to/miniconda/envs/phase1/opt/bbmap-38.79-0/resources/lambda.fa.gz",
+    "pjet1": "/path/to/miniconda/envs/phase1/opt/bbmap-38.79-0/resources/pJET1.2.fa",
+    "small": "/path/to/miniconda/envs/phase1/opt/bbmap-38.79-0/resources/short.fa",
+    "diamonddb": "/path/to/diamond_db/nr_XYZ.dmnd",
+    "blastndb": "/path/to/blast_db/nt_v5",
+    "customscripts": "/path/to/snakemake_scripts/"    
+}
