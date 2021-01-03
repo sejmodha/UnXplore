@@ -1,0 +1,280 @@
+<svg width="1258pt" height="742pt" viewBox="0 0 1258 742" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 738.4)">
+<title>snakemake_dag</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-738.4 1253.7646,-738.4 1253.7646,4 -4,4"></polygon>
+<!-- 1 -->
+<g id="node1" class="node">
+<title>1</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M814.4371,-152.9004C814.4371,-152.9004 587.1629,-152.9004 587.1629,-152.9004 581.1629,-152.9004 575.1629,-146.9004 575.1629,-140.9004 575.1629,-140.9004 575.1629,-113.4996 575.1629,-113.4996 575.1629,-107.4996 581.1629,-101.4996 587.1629,-101.4996 587.1629,-101.4996 814.4371,-101.4996 814.4371,-101.4996 820.4371,-101.4996 826.4371,-107.4996 826.4371,-113.4996 826.4371,-113.4996 826.4371,-140.9004 826.4371,-140.9004 826.4371,-146.9004 820.4371,-152.9004 814.4371,-152.9004"></path>
+<text text-anchor="middle" x="700.8" y="-138" font-family="Times,serif" font-size="12.00" fill="#000000">Extract contigs without any BLASTN hits</text>
+<text text-anchor="middle" x="700.8" y="-123.6" font-family="Times,serif" font-size="12.00" fill="#000000"> Contigs without a taxonomy label identification </text>
+<text text-anchor="middle" x="700.8" y="-109.2" font-family="Times,serif" font-size="12.00" fill="#000000"> [ParseBLASTNOutput.py] </text>
+</g>
+<!-- 4 -->
+<g id="node3" class="node">
+<title>4</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M872.5057,-58.5004C872.5057,-58.5004 557.0943,-58.5004 557.0943,-58.5004 551.0943,-58.5004 545.0943,-52.5004 545.0943,-46.5004 545.0943,-46.5004 545.0943,-19.0996 545.0943,-19.0996 545.0943,-13.0996 551.0943,-7.0996 557.0943,-7.0996 557.0943,-7.0996 872.5057,-7.0996 872.5057,-7.0996 878.5057,-7.0996 884.5057,-13.0996 884.5057,-19.0996 884.5057,-19.0996 884.5057,-46.5004 884.5057,-46.5004 884.5057,-52.5004 878.5057,-58.5004 872.5057,-58.5004"></path>
+<text text-anchor="middle" x="714.8" y="-43.6" font-family="Times,serif" font-size="12.00" fill="#000000">Quantify and extract contigs (and bases) within different categories</text>
+<text text-anchor="middle" x="714.8" y="-29.2" font-family="Times,serif" font-size="12.00" fill="#000000"> Known, Partially known, Unknown</text>
+<text text-anchor="middle" x="714.8" y="-14.8" font-family="Times,serif" font-size="12.00" fill="#000000"> [GetContigQuantificationStats.py, GetBasesQuantification.py]</text>
+</g>
+<!-- 1&#45;&gt;4 -->
+<g id="edge5" class="edge">
+<title>1-&gt;4</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M704.6256,-101.4048C706.1226,-91.3107 707.8653,-79.5597 709.481,-68.665"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="712.9741,-68.9693 710.9791,-58.564 706.0498,-67.9424 712.9741,-68.9693"></polygon>
+</g>
+<!-- 2 -->
+<g id="node2" class="node">
+<title>2</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M205.4004,-327.1005C205.4004,-327.1005 12.1996,-327.1005 12.1996,-327.1005 6.1996,-327.1005 .1996,-321.1005 .1996,-315.1005 .1996,-315.1005 .1996,-302.4995 .1996,-302.4995 .1996,-296.4995 6.1996,-290.4995 12.1996,-290.4995 12.1996,-290.4995 205.4004,-290.4995 205.4004,-290.4995 211.4004,-290.4995 217.4004,-296.4995 217.4004,-302.4995 217.4004,-302.4995 217.4004,-315.1005 217.4004,-315.1005 217.4004,-321.1005 211.4004,-327.1005 205.4004,-327.1005"></path>
+<text text-anchor="middle" x="108.8" y="-312.4" font-family="Times,serif" font-size="12.00" fill="#000000">Extract assembly statistics for each contig</text>
+<text text-anchor="middle" x="108.8" y="-298" font-family="Times,serif" font-size="12.00" fill="#000000"> [BBTools pileup.sh]</text>
+</g>
+<!-- 5 -->
+<g id="node4" class="node">
+<title>5</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M1146.7208,-341.4012C1146.7208,-341.4012 932.8792,-341.4012 932.8792,-341.4012 926.8792,-341.4012 920.8792,-335.4012 920.8792,-329.4012 920.8792,-329.4012 920.8792,-288.1988 920.8792,-288.1988 920.8792,-282.1988 926.8792,-276.1988 932.8792,-276.1988 932.8792,-276.1988 1146.7208,-276.1988 1146.7208,-276.1988 1152.7208,-276.1988 1158.7208,-282.1988 1158.7208,-288.1988 1158.7208,-288.1988 1158.7208,-329.4012 1158.7208,-329.4012 1158.7208,-335.4012 1152.7208,-341.4012 1146.7208,-341.4012"></path>
+<text text-anchor="middle" x="1039.8" y="-326.8" font-family="Times,serif" font-size="12.00" fill="#000000">Extract 'grey' contigs</text>
+<text text-anchor="middle" x="1039.8" y="-312.4" font-family="Times,serif" font-size="12.00" fill="#000000"> partial matches to currently known sequences</text>
+<text text-anchor="middle" x="1039.8" y="-298" font-family="Times,serif" font-size="12.00" fill="#000000"> percetage identity &gt;0 and &lt;=80 </text>
+<text text-anchor="middle" x="1039.8" y="-283.6" font-family="Times,serif" font-size="12.00" fill="#000000"> [ExtractPartiallyKnownSeq.py]</text>
+</g>
+<!-- 5&#45;&gt;4 -->
+<g id="edge7" class="edge">
+<title>5-&gt;4</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M985.7903,-276.0631C972.5102,-265.8945 959.3724,-253.7055 949.8,-240 912.9178,-187.1932 951.3599,-148.111 906.8,-101.6 890.7247,-84.8208 870.274,-72.1231 848.7475,-62.5169"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="850.0389,-59.2629 839.4656,-58.5864 847.3092,-65.7088 850.0389,-59.2629"></polygon>
+</g>
+<!-- 7 -->
+<g id="node5" class="node">
+<title>7</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M1194.4363,-240.1004C1194.4363,-240.1004 971.1637,-240.1004 971.1637,-240.1004 965.1637,-240.1004 959.1637,-234.1004 959.1637,-228.1004 959.1637,-228.1004 959.1637,-200.6996 959.1637,-200.6996 959.1637,-194.6996 965.1637,-188.6996 971.1637,-188.6996 971.1637,-188.6996 1194.4363,-188.6996 1194.4363,-188.6996 1200.4363,-188.6996 1206.4363,-194.6996 1206.4363,-200.6996 1206.4363,-200.6996 1206.4363,-228.1004 1206.4363,-228.1004 1206.4363,-234.1004 1200.4363,-240.1004 1194.4363,-240.1004"></path>
+<text text-anchor="middle" x="1082.8" y="-225.2" font-family="Times,serif" font-size="12.00" fill="#000000">Compute summary statistics and LCA of all hits</text>
+<text text-anchor="middle" x="1082.8" y="-210.8" font-family="Times,serif" font-size="12.00" fill="#000000"> for each partially known contigs</text>
+<text text-anchor="middle" x="1082.8" y="-196.4" font-family="Times,serif" font-size="12.00" fill="#000000"> [ExtractLCA.py]</text>
+</g>
+<!-- 5&#45;&gt;7 -->
+<g id="edge11" class="edge">
+<title>5-&gt;7</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M1054.7186,-276.0484C1058.6376,-267.4449 1062.8794,-258.1326 1066.8502,-249.4155"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="1070.0641,-250.803 1071.0243,-240.2518 1063.6938,-247.9013 1070.0641,-250.803"></polygon>
+</g>
+<!-- 11 -->
+<g id="node6" class="node">
+<title>11</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M1169.9128,-152.9004C1169.9128,-152.9004 995.6872,-152.9004 995.6872,-152.9004 989.6872,-152.9004 983.6872,-146.9004 983.6872,-140.9004 983.6872,-140.9004 983.6872,-113.4996 983.6872,-113.4996 983.6872,-107.4996 989.6872,-101.4996 995.6872,-101.4996 995.6872,-101.4996 1169.9128,-101.4996 1169.9128,-101.4996 1175.9128,-101.4996 1181.9128,-107.4996 1181.9128,-113.4996 1181.9128,-113.4996 1181.9128,-140.9004 1181.9128,-140.9004 1181.9128,-146.9004 1175.9128,-152.9004 1169.9128,-152.9004"></path>
+<text text-anchor="middle" x="1082.8" y="-138" font-family="Times,serif" font-size="12.00" fill="#000000">Extract contigs where LCA is a virus</text>
+<text text-anchor="middle" x="1082.8" y="-123.6" font-family="Times,serif" font-size="12.00" fill="#000000"> Identify viruses present in the sample</text>
+<text text-anchor="middle" x="1082.8" y="-109.2" font-family="Times,serif" font-size="12.00" fill="#000000"> [ExtractViralHits.py]</text>
+</g>
+<!-- 7&#45;&gt;11 -->
+<g id="edge12" class="edge">
+<title>7-&gt;11</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M1082.8,-188.7088C1082.8,-180.7084 1082.8,-171.7342 1082.8,-163.1661"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="1086.3001,-163.0089 1082.8,-153.0089 1079.3001,-163.009 1086.3001,-163.0089"></polygon>
+</g>
+<!-- 12 -->
+<g id="node7" class="node">
+<title>12</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M1237.7292,-65.4012C1237.7292,-65.4012 927.8708,-65.4012 927.8708,-65.4012 921.8708,-65.4012 915.8708,-59.4012 915.8708,-53.4012 915.8708,-53.4012 915.8708,-12.1988 915.8708,-12.1988 915.8708,-6.1988 921.8708,-.1988 927.8708,-.1988 927.8708,-.1988 1237.7292,-.1988 1237.7292,-.1988 1243.7292,-.1988 1249.7292,-6.1988 1249.7292,-12.1988 1249.7292,-12.1988 1249.7292,-53.4012 1249.7292,-53.4012 1249.7292,-59.4012 1243.7292,-65.4012 1237.7292,-65.4012"></path>
+<text text-anchor="middle" x="1082.8" y="-50.8" font-family="Times,serif" font-size="12.00" fill="#000000">Perform BLASTN (against nt database) on contigs with virus hits </text>
+<text text-anchor="middle" x="1082.8" y="-36.4" font-family="Times,serif" font-size="12.00" fill="#000000">(based on LCA)</text>
+<text text-anchor="middle" x="1082.8" y="-22" font-family="Times,serif" font-size="12.00" fill="#000000"> sanity check to ensure true viral hits</text>
+<text text-anchor="middle" x="1082.8" y="-7.6" font-family="Times,serif" font-size="12.00" fill="#000000"> [BLASTN, ExtractLCABLASTM6.py]</text>
+</g>
+<!-- 11&#45;&gt;12 -->
+<g id="edge13" class="edge">
+<title>11-&gt;12</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M1082.8,-101.4048C1082.8,-93.479 1082.8,-84.5316 1082.8,-75.7793"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="1086.3001,-75.6674 1082.8,-65.6675 1079.3001,-75.6675 1086.3001,-75.6674"></polygon>
+</g>
+<!-- 15 -->
+<g id="node8" class="node">
+<title>15</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M468.5529,-334.5004C468.5529,-334.5004 247.0471,-334.5004 247.0471,-334.5004 241.0471,-334.5004 235.0471,-328.5004 235.0471,-322.5004 235.0471,-322.5004 235.0471,-295.0996 235.0471,-295.0996 235.0471,-289.0996 241.0471,-283.0996 247.0471,-283.0996 247.0471,-283.0996 468.5529,-283.0996 468.5529,-283.0996 474.5529,-283.0996 480.5529,-289.0996 480.5529,-295.0996 480.5529,-295.0996 480.5529,-322.5004 480.5529,-322.5004 480.5529,-328.5004 474.5529,-334.5004 468.5529,-334.5004"></path>
+<text text-anchor="middle" x="357.8" y="-319.6" font-family="Times,serif" font-size="12.00" fill="#000000">Extract reads quantification for human mapped,</text>
+<text text-anchor="middle" x="357.8" y="-305.2" font-family="Times,serif" font-size="12.00" fill="#000000"> de novo assembled and unassembled reads</text>
+<text text-anchor="middle" x="357.8" y="-290.8" font-family="Times,serif" font-size="12.00" fill="#000000"> [samtools stats]</text>
+</g>
+<!-- 16 -->
+<g id="node9" class="node">
+<title>16</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M848.5614,-232.7005C848.5614,-232.7005 651.0386,-232.7005 651.0386,-232.7005 645.0386,-232.7005 639.0386,-226.7005 639.0386,-220.7005 639.0386,-220.7005 639.0386,-208.0995 639.0386,-208.0995 639.0386,-202.0995 645.0386,-196.0995 651.0386,-196.0995 651.0386,-196.0995 848.5614,-196.0995 848.5614,-196.0995 854.5614,-196.0995 860.5614,-202.0995 860.5614,-208.0995 860.5614,-208.0995 860.5614,-220.7005 860.5614,-220.7005 860.5614,-226.7005 854.5614,-232.7005 848.5614,-232.7005"></path>
+<text text-anchor="middle" x="749.8" y="-218" font-family="Times,serif" font-size="12.00" fill="#000000">Perform nucleotide based similarity search</text>
+<text text-anchor="middle" x="749.8" y="-203.6" font-family="Times,serif" font-size="12.00" fill="#000000">(BLASTN)</text>
+</g>
+<!-- 16&#45;&gt;1 -->
+<g id="edge1" class="edge">
+<title>16-&gt;1</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M739.4084,-195.9071C733.8666,-186.0451 726.864,-173.5833 720.3488,-161.9889"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="723.2156,-159.946 715.2655,-152.9427 717.1131,-163.3752 723.2156,-159.946"></polygon>
+</g>
+<!-- 16&#45;&gt;4 -->
+<g id="edge4" class="edge">
+<title>16-&gt;4</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M790.5443,-196.0206C807.8132,-185.9246 826.1481,-171.5859 835.8,-152.8 846.1992,-132.5596 847.2427,-121.2693 835.8,-101.6 826.6237,-85.8264 812.3323,-73.3721 796.742,-63.6513"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="798.3715,-60.5498 787.9713,-58.5284 794.8409,-66.5943 798.3715,-60.5498"></polygon>
+</g>
+<!-- 17 -->
+<g id="node10" class="node">
+<title>17</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M368.2604,-421.5005C368.2604,-421.5005 247.3396,-421.5005 247.3396,-421.5005 241.3396,-421.5005 235.3396,-415.5005 235.3396,-409.5005 235.3396,-409.5005 235.3396,-396.8995 235.3396,-396.8995 235.3396,-390.8995 241.3396,-384.8995 247.3396,-384.8995 247.3396,-384.8995 368.2604,-384.8995 368.2604,-384.8995 374.2604,-384.8995 380.2604,-390.8995 380.2604,-396.8995 380.2604,-396.8995 380.2604,-409.5005 380.2604,-409.5005 380.2604,-415.5005 374.2604,-421.5005 368.2604,-421.5005"></path>
+<text text-anchor="middle" x="307.8" y="-406.8" font-family="Times,serif" font-size="12.00" fill="#000000">Map reads back to contigs </text>
+<text text-anchor="middle" x="307.8" y="-392.4" font-family="Times,serif" font-size="12.00" fill="#000000">(bwa)</text>
+</g>
+<!-- 17&#45;&gt;2 -->
+<g id="edge2" class="edge">
+<title>17-&gt;2</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M268.9584,-384.7746C236.9074,-369.5706 191.2776,-347.9251 156.9159,-331.6249"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="158.0787,-328.3026 147.5436,-327.1789 155.0785,-334.6271 158.0787,-328.3026"></polygon>
+</g>
+<!-- 17&#45;&gt;15 -->
+<g id="edge15" class="edge">
+<title>17-&gt;15</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M317.6784,-384.5496C323.8885,-372.825 332.0925,-357.3357 339.4631,-343.4201"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="342.5692,-345.0334 344.1569,-334.5582 336.3833,-341.7569 342.5692,-345.0334"></polygon>
+</g>
+<!-- 18 -->
+<g id="node11" class="node">
+<title>18</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M771.9701,-501.5005C771.9701,-501.5005 637.6299,-501.5005 637.6299,-501.5005 631.6299,-501.5005 625.6299,-495.5005 625.6299,-489.5005 625.6299,-489.5005 625.6299,-476.8995 625.6299,-476.8995 625.6299,-470.8995 631.6299,-464.8995 637.6299,-464.8995 637.6299,-464.8995 771.9701,-464.8995 771.9701,-464.8995 777.9701,-464.8995 783.9701,-470.8995 783.9701,-476.8995 783.9701,-476.8995 783.9701,-489.5005 783.9701,-489.5005 783.9701,-495.5005 777.9701,-501.5005 771.9701,-501.5005"></path>
+<text text-anchor="middle" x="704.8" y="-486.8" font-family="Times,serif" font-size="12.00" fill="#000000">Extract long contigs [&gt;=300] </text>
+<text text-anchor="middle" x="704.8" y="-472.4" font-family="Times,serif" font-size="12.00" fill="#000000"> [FilterFasta.py]</text>
+</g>
+<!-- 18&#45;&gt;4 -->
+<g id="edge8" class="edge">
+<title>18-&gt;4</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M669.7347,-464.7486C623.1866,-437.4309 546.8,-381.5229 546.8,-308.8 546.8,-308.8 546.8,-308.8 546.8,-214.4 546.8,-163.5605 534.9297,-141.9941 565.8,-101.6 578.2892,-85.2578 595.5825,-72.6615 613.9775,-62.9979"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="615.6747,-66.0631 623.0801,-58.486 612.5659,-59.7913 615.6747,-66.0631"></polygon>
+</g>
+<!-- 18&#45;&gt;5 -->
+<g id="edge10" class="edge">
+<title>18-&gt;5</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M783.9021,-467.1403C817.6877,-458.4801 856.8452,-445.972 889.8,-428.8 930.5238,-407.5798 970.8352,-374.4703 999.3961,-348.4005"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="1001.7935,-350.9507 1006.7633,-341.5938 997.0432,-345.8092 1001.7935,-350.9507"></polygon>
+</g>
+<!-- 20 -->
+<g id="node13" class="node">
+<title>20</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M868.41,-428.9004C868.41,-428.9004 717.19,-428.9004 717.19,-428.9004 711.19,-428.9004 705.19,-422.9004 705.19,-416.9004 705.19,-416.9004 705.19,-389.4996 705.19,-389.4996 705.19,-383.4996 711.19,-377.4996 717.19,-377.4996 717.19,-377.4996 868.41,-377.4996 868.41,-377.4996 874.41,-377.4996 880.41,-383.4996 880.41,-389.4996 880.41,-389.4996 880.41,-416.9004 880.41,-416.9004 880.41,-422.9004 874.41,-428.9004 868.41,-428.9004"></path>
+<text text-anchor="middle" x="792.8" y="-414" font-family="Times,serif" font-size="12.00" fill="#000000">Perform BLASTX search against</text>
+<text text-anchor="middle" x="792.8" y="-399.6" font-family="Times,serif" font-size="12.00" fill="#000000"> non-redudant protein databases</text>
+<text text-anchor="middle" x="792.8" y="-385.2" font-family="Times,serif" font-size="12.00" fill="#000000">[DIAMOND]</text>
+</g>
+<!-- 18&#45;&gt;20 -->
+<g id="edge21" class="edge">
+<title>18-&gt;20</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M725.2102,-464.6453C734.6072,-456.1025 746.0424,-445.7069 756.8144,-435.9142"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="759.4571,-438.2418 764.5022,-428.9253 754.7484,-433.0622 759.4571,-438.2418"></polygon>
+</g>
+<!-- 19 -->
+<g id="node12" class="node">
+<title>19</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M550.447,-501.5005C550.447,-501.5005 467.153,-501.5005 467.153,-501.5005 461.153,-501.5005 455.153,-495.5005 455.153,-489.5005 455.153,-489.5005 455.153,-476.8995 455.153,-476.8995 455.153,-470.8995 461.153,-464.8995 467.153,-464.8995 467.153,-464.8995 550.447,-464.8995 550.447,-464.8995 556.447,-464.8995 562.447,-470.8995 562.447,-476.8995 562.447,-476.8995 562.447,-489.5005 562.447,-489.5005 562.447,-495.5005 556.447,-501.5005 550.447,-501.5005"></path>
+<text text-anchor="middle" x="508.8" y="-486.8" font-family="Times,serif" font-size="12.00" fill="#000000">De novo assembly </text>
+<text text-anchor="middle" x="508.8" y="-472.4" font-family="Times,serif" font-size="12.00" fill="#000000"> (SPAdes)</text>
+</g>
+<!-- 19&#45;&gt;4 -->
+<g id="edge6" class="edge">
+<title>19-&gt;4</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M508.8,-464.8706C508.8,-433.095 508.8,-365.7222 508.8,-308.8 508.8,-308.8 508.8,-308.8 508.8,-214.4 508.8,-162.2884 505.8414,-140.246 540.8,-101.6 555.8911,-84.9171 575.5506,-72.2254 596.2024,-62.5865"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="597.6965,-65.7528 605.4243,-58.5048 594.8633,-59.3517 597.6965,-65.7528"></polygon>
+</g>
+<!-- 19&#45;&gt;17 -->
+<g id="edge17" class="edge">
+<title>19-&gt;17</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M462.6865,-464.8464C433.1712,-453.099 394.7001,-437.7871 363.4835,-425.3626"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="364.6319,-422.0527 354.0465,-421.6066 362.0433,-428.5565 364.6319,-422.0527"></polygon>
+</g>
+<!-- 19&#45;&gt;18 -->
+<g id="edge19" class="edge">
+<title>19-&gt;18</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M562.7766,-483.2C580.2449,-483.2 597.7132,-483.2 615.1815,-483.2"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="615.4666,-486.7001 625.4666,-483.2 615.4666,-479.7001 615.4666,-486.7001"></polygon>
+</g>
+<!-- 20&#45;&gt;4 -->
+<g id="edge3" class="edge">
+<title>20-&gt;4</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M841.4709,-377.368C854.3588,-367.9509 866.6582,-356.0037 873.8,-341.6 921.348,-245.7043 918.2635,-187.0473 853.8,-101.6 841.7168,-85.5835 824.8919,-73.0621 807.1091,-63.358"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="808.2357,-60.0015 797.7426,-58.5367 805.032,-66.2254 808.2357,-60.0015"></polygon>
+</g>
+<!-- 20&#45;&gt;5 -->
+<g id="edge9" class="edge">
+<title>20-&gt;5</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M859.9676,-377.5295C886.0218,-367.5719 916.3331,-355.9873 944.5626,-345.1984"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="945.9556,-348.413 954.0471,-341.5736 943.4565,-341.8743 945.9556,-348.413"></polygon>
+</g>
+<!-- 22 -->
+<g id="node15" class="node">
+<title>22</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M852.4183,-327.1005C852.4183,-327.1005 647.1817,-327.1005 647.1817,-327.1005 641.1817,-327.1005 635.1817,-321.1005 635.1817,-315.1005 635.1817,-315.1005 635.1817,-302.4995 635.1817,-302.4995 635.1817,-296.4995 641.1817,-290.4995 647.1817,-290.4995 647.1817,-290.4995 852.4183,-290.4995 852.4183,-290.4995 858.4183,-290.4995 864.4183,-296.4995 864.4183,-302.4995 864.4183,-302.4995 864.4183,-315.1005 864.4183,-315.1005 864.4183,-321.1005 858.4183,-327.1005 852.4183,-327.1005"></path>
+<text text-anchor="middle" x="749.8" y="-312.4" font-family="Times,serif" font-size="12.00" fill="#000000">Extract contigs without any DIAMOND hits</text>
+<text text-anchor="middle" x="749.8" y="-298" font-family="Times,serif" font-size="12.00" fill="#000000">[ParseDIAMONDOutput.py]</text>
+</g>
+<!-- 20&#45;&gt;22 -->
+<g id="edge23" class="edge">
+<title>20-&gt;22</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M781.0501,-377.4048C775.3036,-364.7894 768.3783,-349.5858 762.5089,-336.7004"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="765.5938,-335.0295 758.2633,-327.38 759.2236,-337.9312 765.5938,-335.0295"></polygon>
+</g>
+<!-- 21 -->
+<g id="node14" class="node">
+<title>21</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M463.6176,-661.7004C463.6176,-661.7004 351.9824,-661.7004 351.9824,-661.7004 345.9824,-661.7004 339.9824,-655.7004 339.9824,-649.7004 339.9824,-649.7004 339.9824,-622.2996 339.9824,-622.2996 339.9824,-616.2996 345.9824,-610.2996 351.9824,-610.2996 351.9824,-610.2996 463.6176,-610.2996 463.6176,-610.2996 469.6176,-610.2996 475.6176,-616.2996 475.6176,-622.2996 475.6176,-622.2996 475.6176,-649.7004 475.6176,-649.7004 475.6176,-655.7004 469.6176,-661.7004 463.6176,-661.7004"></path>
+<text text-anchor="middle" x="407.8" y="-646.8" font-family="Times,serif" font-size="12.00" fill="#000000">Align to human genome,</text>
+<text text-anchor="middle" x="407.8" y="-632.4" font-family="Times,serif" font-size="12.00" fill="#000000"> extract unmapped reads</text>
+<text text-anchor="middle" x="407.8" y="-618" font-family="Times,serif" font-size="12.00" fill="#000000">[bwa, samtools]</text>
+</g>
+<!-- 21&#45;&gt;15 -->
+<g id="edge14" class="edge">
+<title>21-&gt;15</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M408.842,-610.2211C410.1004,-563.192 409.8647,-460.6617 388.8,-377.6 385.9151,-366.2245 381.2535,-354.386 376.4118,-343.8014"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="379.429,-341.9974 371.9606,-334.4826 373.1126,-345.0146 379.429,-341.9974"></polygon>
+</g>
+<!-- 21&#45;&gt;17 -->
+<g id="edge18" class="edge">
+<title>21-&gt;17</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M396.7162,-610.1968C377.7659,-566.0805 339.2973,-476.5257 319.7621,-431.0477"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="322.9456,-429.5909 315.7829,-421.7841 316.5139,-432.3537 322.9456,-429.5909"></polygon>
+</g>
+<!-- 23 -->
+<g id="node16" class="node">
+<title>23</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M569.4281,-574.3005C569.4281,-574.3005 448.1719,-574.3005 448.1719,-574.3005 442.1719,-574.3005 436.1719,-568.3005 436.1719,-562.3005 436.1719,-562.3005 436.1719,-549.6995 436.1719,-549.6995 436.1719,-543.6995 442.1719,-537.6995 448.1719,-537.6995 448.1719,-537.6995 569.4281,-537.6995 569.4281,-537.6995 575.4281,-537.6995 581.4281,-543.6995 581.4281,-549.6995 581.4281,-549.6995 581.4281,-562.3005 581.4281,-562.3005 581.4281,-568.3005 575.4281,-574.3005 569.4281,-574.3005"></path>
+<text text-anchor="middle" x="508.8" y="-559.6" font-family="Times,serif" font-size="12.00" fill="#000000">Perform read normlisation </text>
+<text text-anchor="middle" x="508.8" y="-545.2" font-family="Times,serif" font-size="12.00" fill="#000000"> [bbnorm.sh]</text>
+</g>
+<!-- 21&#45;&gt;23 -->
+<g id="edge24" class="edge">
+<title>21-&gt;23</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M440.313,-610.2471C452.3077,-600.7464 465.8598,-590.0121 477.7242,-580.6145"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="479.9628,-583.3063 485.6286,-574.3536 475.6165,-577.8191 479.9628,-583.3063"></polygon>
+</g>
+<!-- 22&#45;&gt;16 -->
+<g id="edge16" class="edge">
+<title>22-&gt;16</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M749.8,-290.1496C749.8,-276.8323 749.8,-258.6581 749.8,-243.4497"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="753.3001,-243.0116 749.8,-233.0117 746.3001,-243.0117 753.3001,-243.0116"></polygon>
+</g>
+<!-- 23&#45;&gt;19 -->
+<g id="edge20" class="edge">
+<title>23-&gt;19</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M508.8,-537.6295C508.8,-529.7836 508.8,-520.4426 508.8,-511.7328"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="512.3001,-511.5646 508.8,-501.5646 505.3001,-511.5647 512.3001,-511.5646"></polygon>
+</g>
+<!-- 24 -->
+<g id="node17" class="node">
+<title>24</title>
+<path fill="none" stroke="#000000" stroke-width="1.2" d="M473.6023,-734.3005C473.6023,-734.3005 341.9977,-734.3005 341.9977,-734.3005 335.9977,-734.3005 329.9977,-728.3005 329.9977,-722.3005 329.9977,-722.3005 329.9977,-709.6995 329.9977,-709.6995 329.9977,-703.6995 335.9977,-697.6995 341.9977,-697.6995 341.9977,-697.6995 473.6023,-697.6995 473.6023,-697.6995 479.6023,-697.6995 485.6023,-703.6995 485.6023,-709.6995 485.6023,-709.6995 485.6023,-722.3005 485.6023,-722.3005 485.6023,-728.3005 479.6023,-734.3005 473.6023,-734.3005"></path>
+<text text-anchor="middle" x="407.8" y="-719.6" font-family="Times,serif" font-size="12.00" fill="#000000">Read trimming and cleaning </text>
+<text text-anchor="middle" x="407.8" y="-705.2" font-family="Times,serif" font-size="12.00" fill="#000000">[bbduk.sh]</text>
+</g>
+<!-- 24&#45;&gt;21 -->
+<g id="edge22" class="edge">
+<title>24-&gt;21</title>
+<path fill="none" stroke="#c0c0c0" stroke-width="1.5" d="M407.8,-697.4453C407.8,-689.8148 407.8,-680.7062 407.8,-671.8693"></path>
+<polygon fill="#c0c0c0" stroke="#c0c0c0" stroke-width="1.5" points="411.3001,-671.7252 407.8,-661.7253 404.3001,-671.7253 411.3001,-671.7252"></polygon>
+</g>
+</g>
+</svg>
