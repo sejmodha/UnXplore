@@ -16,11 +16,11 @@
 
 #### Exploring the unknown sequence matter embedded in human microbiome data
 
-Mining human microbiomes for taxonomically unknown sequences
+Mining human microbiomes for taxonomically unknown sequences.
 
-See documentation available on [wiki](https://github.com/sejmodha/Unknown-Sequences/wiki) pages.
+<!--- See documentation available on [wiki](https://github.com/sejmodha/Unknown-Sequences/wiki) pages.  --->
 
-Checkout our preprint: https://doi.org/10.1101/2021.01.22.427751
+Preprint: [Quantifying and cataloguing unknown sequences within human microbiomes](https://doi.org/10.1101/2021.01.22.427751) 
 
 # Table of Contents
 1. [Unknown sequence mining framework](#unknown-sequence-mining-framework)
@@ -83,7 +83,7 @@ Analysis files generated from above are available in the results folder.
 - `FunctionalAnalysis.csv` - InterProScan analysis for predicted open reading frames generated from unknown contigs
 
 ### More details:
-For further details about this study, see: [Quantifying and cataloguing unknown sequences within human microbiomes](https://doi.org/10.1101/2021.01.22.427751)
+For further details about this study, see: https://doi.org/10.1101/2021.01.22.427751
 
 
 
