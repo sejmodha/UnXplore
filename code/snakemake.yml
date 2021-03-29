@@ -60,5 +60,3 @@ dependencies:
   - yaml=0.2.5=h516909a_0
   - zipp=3.1.0=py_0
   - zlib=1.2.11=h516909a_1006
-prefix: /home/sej/PhDData/software/miniconda3/envs/snakemake
-

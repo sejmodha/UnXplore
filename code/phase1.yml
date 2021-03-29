@@ -130,5 +130,4 @@ dependencies:
   - tk=8.6.8=hbc83047_0
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
-prefix: /home/sej/PhDData/software/miniconda3/envs/phase1
 
