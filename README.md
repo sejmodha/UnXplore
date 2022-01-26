@@ -13,7 +13,10 @@
 
 # UnXplore
 
-[![DOI](https://zenodo.org/badge/324996408.svg)](https://zenodo.org/badge/latestdoi/324996408)
+<!--- [![DOI](https://zenodo.org/badge/324996408.svg)](https://zenodo.org/badge/latestdoi/324996408) --->
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5907223.svg)](https://doi.org/10.5281/zenodo.5907223)
+
 
 
 #### Exploring the unknown sequence matter embedded in human microbiome data
